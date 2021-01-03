@@ -1,0 +1,63 @@
+.bg-animated {
+  position: absolute;
+  z-index: 1;
+}
+#app-create-account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+#app-create-account img {
+  height: 2rem;
+}
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999999;
+}
+.login-content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.form label {
+  color: rgb(241, 234, 234);
+}
+.form input {
+  display: block;
+  margin: 2rem 0;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: 1px solid rgb(82, 119, 219);
+}
+.form input::placeholder {
+  color: white;
+}
+
+.form button {
+  padding: 10px 15px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  font-size: 1.4rem;
+  border-bottom: 1px solid rgb(82, 119, 219);
+  transition: background 0.5s;
+}
+
+.form button:hover {
+  background-color: rgb(82, 119, 219);
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
