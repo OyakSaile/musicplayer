@@ -1,10 +1,11 @@
 let background = document.querySelector("#app-home");
-const tempoDelay = 1000;
+
+const tempoDelay = 2500; //Tempo de Delay para alternar o background
 
 document.addEventListener("load", changeBackground());
 
 function changeBackground() {
-  setTimeout(() => {
-    background.classList.add("black");
+  setInterval(() => {
+    background.classList.toggle("black");
   }, tempoDelay);
 }
