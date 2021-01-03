@@ -1,5 +1,5 @@
 let background = document.querySelector("#app-home");
-const tempoDelay = 500;
+const tempoDelay = 1000;
 
 document.addEventListener("load", changeBackground());
 
